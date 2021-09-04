@@ -1,0 +1,209 @@
+body{
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+main{
+    background-image: url(./images/photo2.jpeg);
+    background-size:cover;
+}
+.reorder{
+    text-align: center;
+    top: 0;
+    color: white;
+}
+.mainSection{
+    display: flex;
+    margin-top: 30%;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.mainHeader{
+flex: 2;
+color:white;
+text-align: center;
+margin-left:20% ;
+margin-right: 5%;
+}
+.mainHeader h2{
+    font-size: 3em;
+    font-family:Georgia;
+}
+.mainPar{
+flex: 10;
+text-align: justify;
+background-color: white;
+padding:20px 80px 20px 20px;
+margin-right: 5%;
+font-family: monospace;
+font-size: 1.3em;
+}
+article{
+    background-color:rgb(233, 174, 151);
+    padding: 40px 80px;
+    color: white;
+}
+.firstArticle{
+font-size: 2em;
+width: 80%;
+}
+.firstArticle::first-letter{
+    font-size: 3em;
+}
+.secondArticle{
+width: 50%;
+text-align: justify;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.firstSection{
+flex: 4;
+}
+.secondSection{
+flex: 4;
+}
+.thirdSection{
+flex: 4;
+}
+
+.contact{
+    background-color:rgb(233, 174, 151);
+    padding: 20px 80px;
+    color: white;
+    text-align: center;
+}
+.contact h2{
+font-size: 2.5em;
+}
+.contact p{
+    font-size: 1.3em;
+}
+.nForm{
+text-align: center;
+padding: 20px 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.nFormInput{
+margin: 5px;
+padding: 10px 20px;
+flex: 3;
+border-radius: 20px;
+}
+.nFormBtn{
+    background-color: black;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+.bio{
+display: flex;
+flex-wrap: wrap;
+margin: 30px 100px;
+}
+.bioImg{
+flex: 4;
+}
+.bioText{
+    flex: 7;
+    text-align: justify;
+    margin:50px 50px 0 0;
+    word-spacing: 0.5em;
+}
+.bioStyledText{
+    color: tomato;
+    font-family:Blackadder ITC;
+    font-size: 2em;
+}
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.collectionHeader{
+    text-align: center;
+    font-size: 2em;
+}
+.firstCollection{
+flex: 3;
+}
+.secondCollection{
+flex: 3;
+}
+.thirdCollection{
+flex: 3;
+}
+.fourthCollection{
+flex: 3;
+}
+.arrowRight{
+    color: white;
+    text-align: center;
+}
+.advert{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 100px;
+}
+.firstAdvert{
+flex: 4;
+}
+.secondAdvert{
+flex: 4;
+}
+.thirdAdvert{
+    flex: 4;
+    padding-right: 50px;
+}
+.cartPrice{
+    margin: 5px 0;
+}
+.cartBtn{
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    bottom: 0;
+}
+.fImg{
+flex: 6;
+}
+.fForm{
+    flex: 6;
+    margin: 50px 20px 20px 20px;
+    text-align: center;
+    border-top: 6px solid rgb(233, 174, 151);
+}
+.fForm h2{
+    font-size: 3em;
+}
+form{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fInput{
+padding: 10px;
+margin: 10px;
+flex: 6;
+}
+.fBtn{
+background-color: black;
+border-radius: 20px;
+color: white;
+padding: 10px 20px;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 35%;
+}
